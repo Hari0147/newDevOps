@@ -3,14 +3,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <servers>
     <server>
-      <username>prdevop26@gmail.com</username>
-      <password>Admin123!</password>
-      <id>central</id>
-    </server>
-    <server>
-      <username>prdevop26@gmail.com</username>
-      <password>Admin123!</password>
-      <id>snapshots</id>
+      <username>Hari</username>
+      <password>nexus</password>
+      <id>nexus</id>
     </server>
   </servers>
   <profiles>
@@ -22,13 +17,13 @@
           </snapshots>
           <id>central</id>
           <name>libs-release</name>
-          <url>https://edshopdpt8.jfrog.io/artifactory/libs-release</url>
+          <url>http://34.229.177.5:8081/repository/maven-central/</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
           <name>libs-snapshot</name>
-          <url>https://edshopdpt8.jfrog.io/artifactory/libs-snapshot</url>
+          <url>http://34.229.177.5:8081/repository/maven-central/</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -38,13 +33,13 @@
           </snapshots>
           <id>central</id>
           <name>libs-release</name>
-          <url>https://edshopdpt8.jfrog.io/artifactory/libs-release</url>
+          <url>http://34.229.177.5:8081/repository/maven-central/</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
           <name>libs-snapshot</name>
-          <url>https://edshopdpt8.jfrog.io/artifactory/libs-snapshot</url>
+          <url>http://34.229.177.5:8081/repository/maven-central/</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>

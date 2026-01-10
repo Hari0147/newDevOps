@@ -69,10 +69,16 @@
 	</build>
 <distributionManagement>
     <repository>
-        <id>central</id>
-        <name>a0nymgefaiwwu-artifactory-primary-0-releases</name>
-        <url>https://edshopdpt8.jfrog.io/artifactory/libs-release-local</url>
-    </repository>
+	  <id>nexus</id>
+	  <name>javalogin-release</name>
+	  <url>http://34.229.177.5:8081/repository/javalogin-release/</url>
+	</repository>  
+	
+	<snapshotrepository>
+	  <id>nexus</id>
+	  <name>javalogin-snapshot</name>
+	  <url>http://34.229.177.5:8081/repository/javalogin-snapshot/</url>
+	</snapshotrepository>
 </distributionManagement> 
 
 </project>
